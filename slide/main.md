@@ -20,6 +20,7 @@ class: title-page
 - fugafuga
 
 ![hoge](./img/hoge.png)
+<p class="footnote">[1] Hoge. Hogeta. "footnote" 2025.</p>
 
 ---
 <!--
@@ -40,7 +41,6 @@ class: compare
     <h2>left</h2>
     <ul>
       <li>fugafuga</li>
-      <li>fugafuga</li>
     </ul>
     <img src="./img/hoge.png">
   </div>
@@ -48,11 +48,11 @@ class: compare
     <h2>right</h2>
     <ul>
       <li>fugafuga</li>
-      <li>fugafuga</li>
     </ul>
     <img src="./img/hoge.png">
   </div>
 </div>
+<p class="footnote">[1] Hoge. Hogeta. "footnote" 2025.</p>
 
 ---
 <!--

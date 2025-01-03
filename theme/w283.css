@@ -10,6 +10,13 @@ section {
   ul {
     color: #555;
   }
+  .footnote {
+    position: absolute;
+    bottom: 36px;
+    left: 12px;
+    font-size: 14px;
+    color: #888;
+  }
 }
 
 header {
