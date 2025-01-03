@@ -176,3 +176,34 @@ section.compare {
     }
   }
 }
+
+section.right-full-image {
+  div {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+
+    div:first-child {
+      text-align: left;
+      flex-direction: column;
+    }
+
+    div:nth-child(2) {
+      height: 100vh;
+      max-width: 50%;
+      overflow: hidden;
+      flex-shrink: 0;
+      img {
+        height: 100%;
+        width: auto;
+        object-fit: cover;
+        right: 0;
+        bottom: 0;
+      }
+    }
+  }
+}

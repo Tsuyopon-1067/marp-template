@@ -53,3 +53,20 @@ class: compare
     <img src="/img/hoge.png">
   </div>
 </div>
+
+---
+<!--
+class: right-full-image
+-->
+<div>
+  <div class="left-content">
+    <h1>left</h1>
+    <ul>
+        <li>fugafuga</li>
+        <li>fugafuga</li>
+    </ul>
+  </div>
+  <div>
+    <img src="/img/hoge.png">
+  </div>
+</div>
