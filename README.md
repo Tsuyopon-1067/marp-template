@@ -30,11 +30,21 @@ yarn build <FORMAT>
 edit `src/README.md`
 for npm
 ```bash
-npm run start
+npm run start <SLIDE DIR>
 ```
 for yarn
 ```bash
-yarn start
+yarn start <SLIDE DIR>
 ```
 
 After run above, you can watch the changes in [http://localhost:8080](http://localhost:8080).
+
+- example:
+    - for npm
+    ```bash
+    npm run start slide/
+    ```
+    - for yarn
+    ```bash
+    yarn start slide/
+    ```
