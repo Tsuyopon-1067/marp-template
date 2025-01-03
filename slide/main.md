@@ -21,3 +21,12 @@ class: title-page
 
 ![hoge](/img/hoge.png)
 
+---
+<!--
+class: centering
+-->
+# centering
+- fugafuga
+- fugafuga
+![hoge](/img/hoge.png)
+

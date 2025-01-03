@@ -48,7 +48,7 @@ section::after {
 section[id="1"] {
   h1 {
     text-align: center;
-    color: 000;
+    color: #333;
     font-size: 64px;
     margin: 0;
     padding: 0;
@@ -85,7 +85,7 @@ section[id="1"] {
 
 section:not([id="1"]) {
   h1 {
-    color: 000;
+    color: #333;
     font-size: 64px;
   }
 
@@ -104,6 +104,35 @@ section:not([id="1"]) {
     bottom: 80px;
     right: 60px; 
     max-width: 600px;
+    height: auto;
+  }
+}
+
+section.centering {
+  h1 {
+    color: #333;
+    font-size: 64px;
+    text-align: center;
+  }
+
+  h1::after {
+    content: "";
+    width: 50%;
+    display: block;
+    margin: 4px auto;
+    height: 4px;
+    background: linear-gradient(to right, #5bc7b0,#5ba0c7ff , #5ba0c700);
+    position: unset;
+  }
+  li {
+    width: 600px;
+    margin: 0 auto;
+  }
+  img {
+    position: unset;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: block;
     height: auto;
   }
 }
