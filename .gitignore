@@ -11,3 +11,7 @@
 
 #!.yarn/cache
 .pnp.*
+.crossnote/config.js
+.crossnote/head.html
+.crossnote/parser.js
+.crossnote/style.less

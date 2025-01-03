@@ -1,7 +1,8 @@
 ---
 marp: true
+theme: w283
 ---
-# hoge
+# hogya
 - hogehoge
 - hogehoge
 - hogehoge
