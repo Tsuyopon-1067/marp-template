@@ -1,4 +1,5 @@
 # marp-template
+![demo](./doc/demo.webp)
 
 ## preparation
 for npm
