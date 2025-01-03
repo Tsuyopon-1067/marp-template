@@ -1,0 +1,11 @@
+{
+  "name": "marp-template",
+  "packageManager": "yarn@4.4.1",
+  "dependencies": {
+    "@marp-team/marp-cli": "^4.0.4"
+  },
+  "scripts": {
+    "start": "marp --server .",
+    "buildpdf": "marp ${0} --html --allow-local-files --image-scale 2"
+  }
+}
