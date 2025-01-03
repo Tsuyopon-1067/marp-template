@@ -30,3 +30,26 @@ class: centering
 - fugafuga
 ![hoge](/img/hoge.png)
 
+---
+<!--
+class: compare
+-->
+# compare
+<div>
+  <div>
+    <h2>left</h2>
+    <ul>
+      <li>fugafuga</li>
+      <li>fugafuga</li>
+    </ul>
+    <img src="/img/hoge.png">
+  </div>
+  <div>
+    <h2>right</h2>
+    <ul>
+      <li>fugafuga</li>
+      <li>fugafuga</li>
+    </ul>
+    <img src="/img/hoge.png">
+  </div>
+</div>

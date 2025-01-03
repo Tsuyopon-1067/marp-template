@@ -84,11 +84,6 @@ section[id="1"] {
 
 
 section:not([id="1"]) {
-  h1 {
-    color: #333;
-    font-size: 64px;
-  }
-
   h1::after {
     content: "";
     width: 40%;
@@ -110,8 +105,6 @@ section:not([id="1"]) {
 
 section.centering {
   h1 {
-    color: #333;
-    font-size: 64px;
     text-align: center;
   }
 
@@ -134,5 +127,52 @@ section.centering {
     margin: 20px auto;
     display: block;
     height: auto;
+  }
+}
+
+section.compare {
+  h1 {
+    color: #333;
+    font-size: 64px;
+    text-align: center;
+  }
+
+  h1::after {
+    content: "";
+    width: 50%;
+    display: block;
+    margin: 4px auto;
+    height: 4px;
+    background: linear-gradient(to right, #5bc7b0,#5ba0c7ff , #5ba0c700);
+    position: unset;
+  }
+
+  div {
+    display: flex;
+    div {
+      width: 45%;
+      display: flex;
+      flex-direction: column;
+      display: flex;
+      justify-content: space-around;
+      margin: 0 auto;
+      border: 1px solid #ccc;
+      h2 {
+        color: #333;
+        font-size: 36px;
+        text-align: center;
+      }
+      li {
+        width: 600px;
+        margin: 0 auto;
+      }
+      img {
+        position: unset;
+        max-width: 1000px;
+        margin: 20px auto;
+        display: block;
+        height: auto;
+      }
+    }
   }
 }
