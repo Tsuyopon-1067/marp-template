@@ -19,7 +19,7 @@ class: title-page
 - fugafuga
 - fugafuga
 
-![hoge](/img/hoge.png)
+![hoge](./img/hoge.png)
 
 ---
 <!--
@@ -28,7 +28,7 @@ class: centering
 # centering
 - fugafuga
 - fugafuga
-![hoge](/img/hoge.png)
+![hoge](./img/hoge.png)
 
 ---
 <!--
@@ -42,7 +42,7 @@ class: compare
       <li>fugafuga</li>
       <li>fugafuga</li>
     </ul>
-    <img src="/img/hoge.png">
+    <img src="./img/hoge.png">
   </div>
   <div>
     <h2>right</h2>
@@ -50,7 +50,7 @@ class: compare
       <li>fugafuga</li>
       <li>fugafuga</li>
     </ul>
-    <img src="/img/hoge.png">
+    <img src="./img/hoge.png">
   </div>
 </div>
 
@@ -59,7 +59,7 @@ class: compare
 class: right-full-image
 -->
 <div>
-  <div class="left-content">
+  <div class=".left-content">
     <h1>left</h1>
     <ul>
         <li>fugafuga</li>
@@ -67,7 +67,7 @@ class: right-full-image
     </ul>
   </div>
   <div>
-    <img src="/img/hoge.png">
+    <img src="./img/hoge.png">
   </div>
 </div>
 
