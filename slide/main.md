@@ -70,3 +70,9 @@ class: right-full-image
     <img src="/img/hoge.png">
   </div>
 </div>
+
+---
+<!--
+class: text-center
+-->
+# text-center

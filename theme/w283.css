@@ -207,3 +207,12 @@ section.right-full-image {
     }
   }
 }
+
+section.text-center {
+  h1 {
+    text-align: center;
+  }
+  h1::after {
+    background: unset;
+  }
+}
