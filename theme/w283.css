@@ -52,7 +52,27 @@ section::after {
   font-size: 14px;
 }
 
-section[id="1"] {
+section:not([class]) {
+  h1::after {
+    content: "";
+    width: 40%;
+    position: absolute;
+    left: 40px;
+    display: block;
+    margin: 4px 0;
+    height: 4px;
+    background: linear-gradient(to right, #5bc7b0,#5ba0c7ff , #5ba0c700);
+  }
+  img {
+    position: absolute;
+    bottom: 80px;
+    right: 60px; 
+    max-width: 600px;
+    height: auto;
+  }
+}
+
+section.title-slide {
   h1 {
     text-align: center;
     color: #333;
@@ -86,27 +106,6 @@ section[id="1"] {
       height: 4px;
       background: linear-gradient(to right, #5bc7b0, #5ba0c7);
     }
-  }
-}
-
-
-section:not([id="1"]) {
-  h1::after {
-    content: "";
-    width: 40%;
-    position: absolute;
-    left: 40px;
-    display: block;
-    margin: 4px 0;
-    height: 4px;
-    background: linear-gradient(to right, #5bc7b0,#5ba0c7ff , #5ba0c700);
-  }
-  img {
-    position: absolute;
-    bottom: 80px;
-    right: 60px; 
-    max-width: 600px;
-    height: auto;
   }
 }
 
@@ -185,29 +184,39 @@ section.compare {
 }
 
 section.right-full-image {
+  position: relative;
+  overflow: hidden;
   div {
     display: flex;
     flex-direction: row;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: calc(100vh - 116px);
     top: 0;
     left: 0;
     box-sizing: border-box;
+    position: relative;
 
     div:first-child {
       text-align: left;
       flex-direction: column;
+      flex: 1;
     }
 
     div:nth-child(2) {
       height: 100vh;
       max-width: 50%;
       overflow: hidden;
+      position: relative;
       flex-shrink: 0;
+      right: 0;
+      bottom: 0;
+      margin-right: -58px;
+      margin-top: -64px;
       img {
         height: 100%;
         width: auto;
         object-fit: cover;
+        position: absolute;
         right: 0;
         bottom: 0;
       }

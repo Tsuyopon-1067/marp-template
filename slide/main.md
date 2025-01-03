@@ -6,11 +6,15 @@ footer: "2025/01/01"
 paginate: true
 ---
 <!--
-class: title-page
+class: title-slide
 -->
 # title
 - subtitle
+
 ---
+<!--
+class: 
+-->
 # fuga
 - fugafuga
 - fugafuga
@@ -59,7 +63,7 @@ class: compare
 class: right-full-image
 -->
 <div>
-  <div class=".left-content">
+  <div>
     <h1>left</h1>
     <ul>
         <li>fugafuga</li>
