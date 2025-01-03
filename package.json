@@ -6,6 +6,6 @@
   },
   "scripts": {
     "start": "marp --theme theme/w283.css --server ${0}",
-    "buildpdf": "marp ${0} --html --allow-local-files --image-scale 2"
+    "buildhtml": "marp ${0} --theme theme/w283.css --html --allow-local-files --image-scale 2"
   }
 }

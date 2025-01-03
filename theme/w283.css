@@ -9,16 +9,34 @@ section {
 }
 
 header {
-  color: #ccc;
-  font-size: 0.5em;
+  color: #fff;
+  font-size: 14px;
   font-weight: 600;
-  top: 0.3rem;
+  top: unset !important;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  bottom: 6px !important;
+  width: 100% !important;
+  text-align: center;
+  z-index: 1;
 }
 
 footer {
-  color: #ccc;
-  font-size: 0.5em;
+  color: #fff;
+  width: 100%;
+  left: 0;
+  padding: 8px 16px;
+  font-size: 14px;
   font-weight: 500;
   bottom: -0.5%;
   background: linear-gradient(to right, #5bc7b0, #5ba0c7);
+}
+
+section::after {
+  content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
+  color: #fff;
+  right: 16px;
+  bottom: 8px;
+  font-size: 14px;
 }
