@@ -5,7 +5,6 @@
 section {
   color: #00f;
   padding: 2rem;
-  border-radius: 0.5rem;
 }
 
 header {
@@ -40,3 +39,41 @@ section::after {
   bottom: 8px;
   font-size: 14px;
 }
+
+section[id="1"] {
+  h1 {
+    text-align: center;
+    color: 000;
+    font-size: 64px;
+    margin: 0;
+    padding: 0;
+  }
+  h1:not(:has(+ ul))::after {
+    content: "";
+    display: block;
+    width: 90%;
+    margin: 4px auto;
+    height: 4px;
+    background: linear-gradient(to right, #5bc7b0, #5ba0c7);
+  }
+  ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    list-style: none;
+    li {
+      margin: 0 0;
+      color: #555555;
+      font-size: 36px;
+    }
+    &::after {
+      content: "";
+      display: block;
+      width: 90%;
+      margin: 0 auto;
+      height: 4px;
+      background: linear-gradient(to right, #5bc7b0, #5ba0c7);
+    }
+  }
+}
+
