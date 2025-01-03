@@ -99,4 +99,11 @@ section:not([id="1"]) {
     height: 4px;
     background: linear-gradient(to right, #5bc7b0,#5ba0c7ff , #5ba0c700);
   }
+  img {
+    position: absolute;
+    bottom: 80px;
+    right: 60px; 
+    max-width: 600px;
+    height: auto;
+  }
 }

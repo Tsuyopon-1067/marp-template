@@ -15,3 +15,9 @@ class: title-page
 - fugafuga
 - fugafuga
 - fugafuga
+- fugafuga
+- fugafuga
+- fugafuga
+
+![hoge](/img/hoge.png)
+
