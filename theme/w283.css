@@ -6,6 +6,7 @@ section {
   padding: 2rem;
   h1 {
     color: #333;
+    font-size: 48px;
   }
   ul {
     color: #555;
@@ -139,7 +140,7 @@ section.centering {
 section.compare {
   h1 {
     color: #333;
-    font-size: 64px;
+    font-size: 48px;
     text-align: center;
   }
 
