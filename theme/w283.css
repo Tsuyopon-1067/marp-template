@@ -1,6 +1,9 @@
 /* @theme w283 */
 
 @import "default";
+* {
+  font-family: '筑紫A丸ゴシック', sans-serif;
+}
 
 section {
   padding: 2rem;
