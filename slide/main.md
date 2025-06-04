@@ -23,7 +23,7 @@ class:
 - fugafuga
 - fugafuga
 
-![hoge](./img/hoge.png)
+![hoge](./img/hoge.webp)
 <p class="footnote">[1] Hoge. Hogeta. "footnote" 2025.</p>
 
 ---
@@ -33,7 +33,7 @@ class: centering
 # centering
 - fugafuga
 - fugafuga
-![hoge](./img/hoge.png)
+![hoge](./img/hoge.webp)
 
 ---
 <!--
@@ -46,14 +46,14 @@ class: compare
     <ul>
       <li>fugafuga</li>
     </ul>
-    <img src="./img/hoge.png">
+    <img src="./img/hoge.webp">
   </div>
   <div>
     <h2>right</h2>
     <ul>
       <li>fugafuga</li>
     </ul>
-    <img src="./img/hoge.png">
+    <img src="./img/hoge.webp">
   </div>
 </div>
 <p class="footnote">[1] Hoge. Hogeta. "footnote" 2025.</p>
@@ -71,7 +71,7 @@ class: right-full-image
     </ul>
   </div>
   <div>
-    <img src="./img/hoge.png">
+    <img src="./img/hoge.webp">
   </div>
 </div>
 

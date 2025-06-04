@@ -134,7 +134,9 @@ section.centering {
   }
   img {
     position: unset;
-    max-width: 1000px;
+    max-width: 100%;
+    max-height: 80%;
+    height: auto;
     margin: 20px auto;
     display: block;
     height: auto;
@@ -179,8 +181,9 @@ section.compare {
       }
       img {
         position: unset;
-        max-width: 1000px;
-        margin: 20px auto;
+        max-width: 100%;
+        margin: 0 20px 20px;
+        box-sizing: border-box;
         display: block;
         height: auto;
       }
